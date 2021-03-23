@@ -7,6 +7,7 @@ namespace ConsoleApp2
     class Class1
     {
         int i;
+
         int j;
 
         public int Counter
@@ -15,5 +16,9 @@ namespace ConsoleApp2
             set => i = j;
         }
        
+
+        
+        public static void Print() => System.Console.WriteLine("Lol");
+
     }
 }
