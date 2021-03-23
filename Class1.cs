@@ -7,5 +7,13 @@ namespace ConsoleApp2
     class Class1
     {
         int i;
+        int j;
+
+        public int Counter
+        {
+            get => i;
+            set => i = j;
+        }
+       
     }
 }
